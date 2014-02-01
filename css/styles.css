@@ -8,10 +8,17 @@ h2{font-size:1.2em;}
 h3{font-size:1.05em;}
 #supplemental{font-size:0.9em;}
 #supplemental p{margin-bottom:0.5em;}
-#head{padding-bottom:2em;}
+#head{padding-bottom:2em;padding-top:1em;}
 li{margin-left:1em;}
-img.screenshot{border:1px solid #ccc;margin-bottom:1em;}
+img.screenshot{margin-bottom:1em;border:1px solid #ccc;}
+img.screenshot{width:50%;float:right;margin-left:1em;}
 #login{position:absolute;top:-6em;right:3em;}
 #login{padding:0.5em 1em;background-color:#eee;color:#000;}
 #login{border-bottom:1px solid #ddd;}
 #login:hover{background-color:#e8e8e8;border-color:#ccc;}
+#navigation{background-color:#e8e8e8;padding:0.5em;border-top:1px solid #ccc;}
+#navigation li{list-style-type:none;float:left;display:block;white-space:pre;}
+#navigation li a{color:#000;margin:-0.25em;padding:0.25em;}
+#navigation li a.selected{background-color:#ccc;border-radius:0.25em;}
+#navigation li a.selected{border-top:1px solid #aaa;}
+.itunes{float:right;width:50%;}
