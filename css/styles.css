@@ -11,7 +11,7 @@ h3{font-size:1.05em;}
 #head{padding-bottom:2em;padding-top:1em;}
 li{margin-left:1em;}
 img.screenshot{margin-bottom:1em;border:1px solid #ccc;}
-img.screenshot{width:50%;float:right;margin-left:1em;}
+img.screenshot{width:70%;float:right;margin-left:1em;}
 #login{position:absolute;top:-6em;right:3em;}
 #login{padding:0.5em 1em;background-color:#eee;color:#000;}
 #login{border-bottom:1px solid #ddd;}
