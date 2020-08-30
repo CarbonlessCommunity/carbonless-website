@@ -6,322 +6,272 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="./images/Logo.png">
 
     <title>Carbonless Community | Home</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="carousel.css" rel="stylesheet">
 
-    <style>
-        .featurette-heading {
-            margin-top: 60px;
-        }
-    </style>
+<style>
+    .featurette-heading {
+        margin-top: 60px;
+    }
+</style>
 </head>
 <!-- NAVBAR
-================================================== -->
-<body>
-<div class="navbar-wrapper">
-    <div class="container">
+    ================================================== -->
+    <body>
+        <div id="header_placeholder">
 
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Carbonless Community</a>
-                </div>
+        </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-
-
-                        <li><a href="index.html">Home</a></li>
-
-                        <li><a href="aboutUs">About Us</a></li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true"
-                               aria-expanded="false">Members <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="members/about">Creating a Community</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="members/depaul">DePaul</a></li>
-                                <!--<li><a href="#">Other Places</a></li>-->
-                            </ul>
-                        </li>
-
-                        <li><a href="reneweableEnergySupply">Renewable Energy Supply</a></li>
-                    </ul>
-
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="blog">Blog</a></li>
-                        <li><a href="contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-        </nav>
-
-    </div>
-</div>
-
-
+        <script>
+            $(function(){
+                $("#header_placeholder").load("./hf/header.html");
+            });
+        </script>
 <!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img class="first-slide" src="images/reserve1-10.jpg" alt="First slide">
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="first-slide" src="images/reserve1-10.jpg" alt="First slide">
 
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Carbonless Community</h1>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Carbonless Community</h1>
 
-                    <p>"… a collection of individuals sharing common characteristics or interests, distinct from the
-                        larger society, working cooperatively to reduce greenhouse gas emissions, thereby reducing the
+                        <p>"… a collection of individuals sharing common characteristics or interests, distinct from the
+                            larger society, working cooperatively to reduce greenhouse gas emissions, thereby reducing the
                         impact on our planet.”</p>
 
-                    <p><a class="btn btn-lg btn-primary" href="members/about" role="button">Learn More</a>
-                    </p><br>
+                        <p><a class="btn btn-lg btn-primary" href="members/about" role="button">Learn More</a>
+                        </p><br>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <img class="second-slide" src="images/image6.jpg" alt="Second slide">
+            <div class="item">
+                <img class="second-slide" src="images/image6.jpg" alt="Second slide">
 
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Building you own Carbonless Community</h1><br>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Building you own Carbonless Community</h1><br>
 
-                    <p>It’s been said many times that the cleanest energy is the energy that does not have to be
+                        <p>It’s been said many times that the cleanest energy is the energy that does not have to be
                         produced. We agree!</p>
 
-                    <p><a class="btn btn-lg btn-primary" href="members/creating" role="button">Starting your own Carbonless
+                        <p><a class="btn btn-lg btn-primary" href="members/creating" role="button">Starting your own Carbonless
                         Community</a></p><br>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <img class="third-slide" src="images/image5.jpg" alt="Third slide">
+            <div class="item">
+                <img class="third-slide" src="images/image5.jpg" alt="Third slide">
 
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Energy Efficient Appliances</h1>
-                    <blockquote>
-                        <p>"The easiest way to reduce your carbon footprint is to choose the “right” household appliance
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Energy Efficient Appliances</h1>
+                        <blockquote>
+                            <p>"The easiest way to reduce your carbon footprint is to choose the “right” household appliance
                             (e.g., clothes washer, dishwasher, refrigerator, etc.) when you need to upgrade."</p>
-                        <footer style="color: #ffffff">Craig Schuttenberg – President, Carbonless Community</footer>
-                    </blockquote>
-                    <p><a class="btn btn-lg btn-primary" href="energyDemand/energyStar" role="button">Purchasing Energy
+                            <footer style="color: #ffffff">Craig Schuttenberg – President, Carbonless Community</footer>
+                        </blockquote>
+                        <p><a class="btn btn-lg btn-primary" href="energyDemand/energyStar" role="button">Purchasing Energy
                         Star Appliances through Abt Electronics</a></p>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-<!-- /.carousel -->
+    <!-- /.carousel -->
 
 
 <!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container marketing">
+    <div class="container marketing">
 
-    <h1>Other measures - <small class="lead">We’re just getting started. Partners include: </small></h1>
-<br>
+        <h1>Other measures - <small class="lead">We’re just getting started. Partners include: </small></h1>
+        <br>
 
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-6">
-            <img class="img-rounded center-block" src="images/satori.jpg" height="140">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-rounded" src="images/satori.jpg" height="140">
 
-            <h2>Online Reverse Auction Platform For Renewable Energy and Carbon Offsets</h2>
+                <h2>Online Reverse Auction Platform For Renewable Energy and Carbon Offsets</h2>
 
-            <p>As colleges and universities work towards becoming carbon neutral, there are going to be times when near-term reduction goals may not be met.  This is where <a href="http://www.satorienergy.com">Satori Energy</a> and their online reverse auction can help.  They bring their competitive cost advantage to institutions seeking renewable energy, carbon offsets or Renewable Energy Certificates on a national basis.  Satori Energy not only has an expansive back room (providing commodity pricing analysis and customer support), but they also are licensed to procure electricity and natural gas in all states where customers have the right to choose their energy provider.</p>
+                <p>As colleges and universities work towards becoming carbon neutral, there are going to be times when near-term reduction goals may not be met.  This is where <a href="http://www.satorienergy.com">Satori Energy</a> and their online reverse auction can help.  They bring their competitive cost advantage to institutions seeking renewable energy, carbon offsets or Renewable Energy Certificates on a national basis.  Satori Energy not only has an expansive back room (providing commodity pricing analysis and customer support), but they also are licensed to procure electricity and natural gas in all states where customers have the right to choose their energy provider.</p>
 
-            <p><a class="btn btn-primary" href="energySupply/auction" role="button">Learn More &raquo;</a></p>
+                <p><a class="btn btn-primary" href="energySupply/auction" role="button">Learn More &raquo;</a></p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-rounded" src="images/enerfusion%20company%20logo%2014d.png" height="140">
+
+                <h2>Enerfusion - GO ON, PLUG IN GREEN!</h2>
+                <br><br>
+                <p>The vision of <a href="http://www.enerfusioninc.com">EnerFusion's</a> owners and workforce is providing consumers with an easy, convenient, and safe source of "Green" power to connect and recharge portable electronic devices when away from the home or office. Products are aimed to ensure that whenever you need to plug in, we will be there to provide "Green" power for your electronic devices. GO ON, PLUG IN GREEN!  AASHE members receive a 5% discount.</p>
+
+                <p><a class="btn btn-primary" href="energyDemand/enerfusion" role="button">Learn More &raquo;</a></p>
+            </div>
         </div>
-        <div class="col-lg-6">
-            <img class="img-rounded center-block" src="images/enerfusion%20company%20logo%2014d.png" height="140">
+        <br>
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-rounded" src="images/XLlogo.png" width="140" height="140">
 
-            <h2>Enerfusion - GO ON, PLUG IN GREEN!</h2>
-<br><br>
-            <p>The vision of <a href="http://www.enerfusioninc.com">EnerFusion's</a> owners and workforce is providing consumers with an easy, convenient, and safe source of "Green" power to connect and recharge portable electronic devices when away from the home or office. Products are aimed to ensure that whenever you need to plug in, we will be there to provide "Green" power for your electronic devices. GO ON, PLUG IN GREEN!  AASHE members receive a 5% discount.</p>
+                <h2>XL Hybrids - 20% Reduction in CO<sub>2</sub> Emissions</h2>
 
-            <p><a class="btn btn-primary" href="energyDemand/enerfusion" role="button">Learn More &raquo;</a></p>
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col-lg-6">
-            <img class="img-rounded center-block" src="images/XLlogo.png" width="140" height="140">
-
-            <h2>XL Hybrids - 20% Reduction in CO<sub>2</sub> Emissions</h2>
-
-            <p>A hybrid conversion is a cutting-edge technology designed to transform your existing vehicle, or a new
-                one via ship-thru installation, into a hybrid electric vehicle. <a href="http://www.xlhybrids.com">XL Hybrids</a> system is designed to work on
-                the most popular Class 2-4 fleet vehicles, including cargo and passenger vans, cutaways, and stripped
+                <p>A hybrid conversion is a cutting-edge technology designed to transform your existing vehicle, or a new
+                    one via ship-thru installation, into a hybrid electric vehicle. <a href="http://www.xlhybrids.com">XL Hybrids</a> system is designed to work on
+                    the most popular Class 2-4 fleet vehicles, including cargo and passenger vans, cutaways, and stripped
                 chassis.</p>
 
-            <p>By adding hybrid powertrains to your fleet, you can cut fuel costs, reduce your exposure to fuel price
+                <p>By adding hybrid powertrains to your fleet, you can cut fuel costs, reduce your exposure to fuel price
                 fluctuations, and reduce emissions. Why wait?</p>
 
-            <p><a class="btn btn-primary" href="energyDemand/xlHybrids" role="button">Learn More &raquo;</a></p>
+                <p><a class="btn btn-primary" href="energyDemand/xlHybrids" role="button">Learn More Now &raquo;</a></p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-rounded" src="images/nexamp_logo.jpeg" width="400">
+
+                <h2>NexAmp</h2>
+
+                <p>Description...</p>
+
+                <p><a class="btn btn-primary" href="energySupply/nexamp" role="button">Learn More Now &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <!--<div class="col-lg-3">-->
+                <!--<img class="img-rounded" src="images/qlogoBlue.png" width="140" height="140">-->
+
+                <!--<h2>Q Coefficient</h2>-->
+
+                <!--<p>Contracts from renewable generators don’t typically guarantee or specify when you will receive your-->
+                    <!--electricity. As electricity is a real-time commodity (with a price that changes constantly throughout-->
+                    <!--the day), you don’t know what your ultimate cost we be to operate your facility. QCoefficient provides-->
+                    <!--the technology and structure to use the thermal mass of your building(s) to vary consumption over short-->
+                    <!--periods to minimize electricity price risk. </p>-->
+
+                    <!--<p><a class="btn btn-primary" href="energySupply/qCoefficient" role="button">Learn More &raquo;</a></p>-->
+                    <!--</div>-->
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+
+
+                <!-- START THE FEATURETTES -->
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-5">
+                        <h2 class="featurette-heading">Enerfusion. <br><span class="text-muted">It'll blow your mind.</span>
+                        </h2>
+                        <p class="lead">EnerFusion provides consumers with an easy, convenient, and safe source of "Green" power to connect and recharge portable electronic devices when away from the home or office. Our products are aimed to ensure that whenever you need to plug in, we will be there to provide "Green" power for your electronic devices. GO ON, PLUG IN GREEN!</p>
+
+                        <p class="text-center"><a class="btn btn-primary" href="energyDemand/enerfusion" role="button">Learn
+                        More &raquo;</a></p>
+                    </div>
+                    <div class="col-md-7">
+                        <br><br><br>
+                        <img class="featurette-image img-responsive center-block img-rounded" src="images/orion.jpg">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 col-md-push-5">
+                        <h2 class="featurette-heading">Creating a Community. <span class="text-muted">See for yourself.</span></h2>
+
+                        <p class="lead">Creating a Community is easy. All you need is a committed group of at least 100 individuals
+                            who have ties to a single organization. For example your community could be a college or university with
+                            the community’s “members” being faculty, staff and students and their families. Or your community could
+                        be your company with "members" being employees and their families.</p>
+
+                        <p class="text-center"><a class="btn btn-primary" href="members/about" role="button">Learn
+                        More &raquo;</a></p>
+                    </div>
+                    <div class="col-md-5 col-md-pull-7">
+                        <br><br><br>
+                        <img class="featurette-image img-responsive center-block img-rounded" src="images/seals.jpg">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Energy Efficient Cars. <span class="text-muted">Vroom Vroom.</span></h2>
+
+                        <p class="lead">We know there are a lot of considerations that go into buying a car, why not buy one that will not only save money on fuel, but also reduce future carbon emissions. To assist you in the future, we will secure an agreement with a buying service that will get you the best deal on a car from a local dealer and we have a listing of suggested fuel efficient cars for you to consider. All of the cars burn significantly less fuel than the current CAFÉ standard.</p>
+
+                        <p class="text-center"><a class="btn btn-primary" href="energyDemand/cars" role="button">Learn
+                        More &raquo;</a></p>
+                    </div>
+                    <div class="col-md-5">
+                        <br><br><br>
+                        <img class="featurette-image img-responsive center-block img-rounded"
+                        src="images/go-green-transportation-car.jpg">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- /END THE FEATURETTES -->
+
+
+                <!-- FOOTER -->
+                 <div id="footer_placeholder">
+
         </div>
-        <div class="col-lg-6">
-            <img class="img-rounded center-block" src="images/nexamp_logo.jpeg" width="400">
-        
-            <h2>Community Solar with Nexamp</h2>
-        
-            <p>Approximately 50% of homes can’t support rooftop solar panels. If yours is one of them, Community Solar with Nexamp is a super easy
-            way to support local clean energy and save up to 20% on electricity supply costs – without installing rooftop solar
-            panels or signing annual contracts.</p>
 
-            <p><em>"Joining a solar community farm was the best option for me - no upfront costs, no panels that can deteriorate over time
-            and subsequently produce less power. Plus, Nexamp customer service is excellent." –Pat W, Nexamp Subscriber</em></p>
-        
-            <p><a class="btn btn-primary" href="energySupply/nexamp" role="button">Learn More &raquo;</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <!--<div class="col-lg-3">-->
-            <!--<img class="img-rounded" src="images/qlogoBlue.png" width="140" height="140">-->
+        <script>
+            $(function(){
+                $("#footer_placeholder").load("./hf/footer.html");
+            });
+        </script>
+                
 
-            <!--<h2>Q Coefficient</h2>-->
-
-            <!--<p>Contracts from renewable generators don’t typically guarantee or specify when you will receive your-->
-                <!--electricity. As electricity is a real-time commodity (with a price that changes constantly throughout-->
-                <!--the day), you don’t know what your ultimate cost we be to operate your facility. QCoefficient provides-->
-                <!--the technology and structure to use the thermal mass of your building(s) to vary consumption over short-->
-                <!--periods to minimize electricity price risk. </p>-->
-
-            <!--<p><a class="btn btn-primary" href="energySupply/qCoefficient" role="button">Learn More &raquo;</a></p>-->
-        <!--</div>-->
-        <!-- /.col-lg-4 -->
-    </div>
-    <!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-5">
-            <h2 class="featurette-heading">Enerfusion. <br><span class="text-muted">It'll blow your mind.</span>
-            </h2>
-            <p class="lead">EnerFusion provides consumers with an easy, convenient, and safe source of "Green" power to connect and recharge portable electronic devices when away from the home or office. Our products are aimed to ensure that whenever you need to plug in, we will be there to provide "Green" power for your electronic devices. GO ON, PLUG IN GREEN!</p>
-
-            <p class="text-center"><a class="btn btn-primary" href="energyDemand/enerfusion" role="button">Learn
-                More &raquo;</a></p>
-        </div>
-        <div class="col-md-7">
-            <br><br><br>
-            <img class="featurette-image img-responsive center-block img-rounded" src="images/orion.jpg">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Creating a Community. <span class="text-muted">See for yourself.</span></h2>
-
-            <p class="lead">Creating a Community is easy. All you need is a committed group of at least 100 individuals
-                who have ties to a single organization. For example your community could be a college or university with
-                the community’s “members” being faculty, staff and students and their families. Or your community could
-                be your company with "members" being employees and their families.</p>
-
-            <p class="text-center"><a class="btn btn-primary" href="members/about" role="button">Learn
-                More &raquo;</a></p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-            <br><br><br>
-            <img class="featurette-image img-responsive center-block img-rounded" src="images/seals.jpg">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Energy Efficient Cars. <span class="text-muted">Vroom Vroom.</span></h2>
-
-            <p class="lead">We know there are a lot of considerations that go into buying a car, why not buy one that will not only save money on fuel, but also reduce future carbon emissions. To assist you in the future, we will secure an agreement with a buying service that will get you the best deal on a car from a local dealer and we have a listing of suggested fuel efficient cars for you to consider. All of the cars burn significantly less fuel than the current CAFÉ standard.</p>
-
-            <p class="text-center"><a class="btn btn-primary" href="energyDemand/cars" role="button">Learn
-                More &raquo;</a></p>
-        </div>
-        <div class="col-md-5">
-            <br><br><br>
-            <img class="featurette-image img-responsive center-block img-rounded"
-                 src="images/go-green-transportation-car.jpg">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <h1><address>
-            Contact: <strong>Craig Schuttenberg</strong><br>
-            <p class="lead">(773) 491-1564</p>
-            <a href="mailto:craig@carbonlesscommunity.com">craig@carbonlesscommunity.com</a>
-        </address></h1>
-        <p>&copy; 2015 Carbonless Community, Inc.</p>
-    </footer>
-
-</div>
-<!-- /.container -->
+            </div>
+            <!-- /.container -->
 
 
 <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
 
 </body>
 </html>
