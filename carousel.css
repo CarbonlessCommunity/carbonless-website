@@ -1,64 +1,48 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
-/* CUSTOMIZE THE NAVBAR
+/* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+.carousel-item {
+    height: 95vh;
+} 
+.carousel-item img {
+    height: 95vh;
 }
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
-
-/* CUSTOMIZE THE CAROUSELz
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-  margin-top: -20px;
-}
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+    text-align:center;
+    font-size: 14px;
+    top: 15%;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
+.carousel-caption h1 {
+    font-size: 24px;
 }
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
+.carousel-caption .btn-lg {
+    font-size: 16px;
+    white-space: normal;
+}
+.carousel-control-next {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+}
+.carousel-control-prev {
+    background-image: -webkit-linear-gradient(right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,right top,left top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+}
+.carousel .blockquote {
+    border-left: 5px solid #eee;
+    font-size: 1rem;
 }
 
 
@@ -66,16 +50,8 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
 .marketing h2 {
   font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 
@@ -88,6 +64,7 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
+
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
@@ -98,38 +75,26 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
+  .carousel-item {
+    height: 550px;
+  } 
+  .carousel-item img {
+    height: 550px;
   }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
   /* Bump up size of carousel content */
+  .carousel-caption h1 {
+      font-size: 40px;
+  }
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
   }
+  .carousel-caption .btn-lg {
+      font-size: 21px;
+  }
 
   .featurette-heading {
     font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
   }
 }

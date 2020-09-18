@@ -1,55 +1,52 @@
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../../">Carbonless Community</a>
-    </div>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="../../">Carbonless Community</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            <li><a href="../../">Home</a></li>
-
-            <li><a href="../../aboutUs">About Us</a></li>
-
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Members <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="../../members/about">Creating a Community</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="../../members/depaul">DePaul</a></li>
-                    <!--<li><a href="#">Other Places</a></li>-->
-                </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../../">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="dropdown">
-                <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Partners <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="../../energySupply/nexamp">Nexamp</a></li>
-                    <li><a href="../../energySupply/auction">Satori Energy</a></li>
-                    <li><a href="../../energyDemand/enerfusion">Enerfusion</a></li>
-                    <li><a href="../../energyDemand/xlHybrids">XL Hybrids</a></li>
-                    <!-- <li><a href="../../energySupply/qCoefficient">qCoefficient</a></li> -->
-                    <!--<li><a href="#">Other Places</a></li>-->
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="../../aboutUs">About Us</a>
             </li>
-            <li><a href="../../renewableEnergySupply">Renewable Energy Supply</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="membersDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Members
+                </a>
+                <div class="dropdown-menu" aria-labelledby="membersDropdown">
+                    <a class="dropdown-item" href="../../members/about">Creating a Community</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../../members/depaul">DePaul</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="partnersDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Partners
+                </a>
+                <div class="dropdown-menu" aria-labelledby="partnersDropdown">
+                    <a class="dropdown-item" href="../../energySupply/nexamp">Nexamp</a>
+                    <a class="dropdown-item" href="../../energySupply/auction">Satori Energy</a>
+                    <a class="dropdown-item" href="../../energyDemand/enerfusion">Enerfusion</a>
+                    <a class="dropdown-item" href="../../energyDemand/xlHybrids">XL Hybrids</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../renewableEnergySupply">Renewable Energy Supply</a>
+            </li>
         </ul>
-
-
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="../../blog">Blog</a></li>
-            <li><a href="../../contact">Contact Us</a></li>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../../blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../contact">Contact Us</a>
+            </li>
         </ul>
     </div>
-    <!-- /.navbar-collapse -->
-</div>
 </nav>

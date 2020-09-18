@@ -1,0 +1,36 @@
+.blockquote {
+    padding: 0.625rem 1.25rem;
+    margin: 0 0 2rem;
+    border-left: 0.25rem solid #eee;
+}
+
+.blockquote footer {
+	color: #777;
+}
+
+.former-member {
+	color: #888;
+	background-color: #fafafa;
+}
+
+h1 small {
+	color: #777;
+	font-size: 65%;
+}
+
+p.lead {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+p.lead {
+	color: #333;
+}
+
+.jumbotron p.lead {
+	font-size: 1.25rem;
+}
+
+.lead strong,b {
+	font-weight: bold;
+}
